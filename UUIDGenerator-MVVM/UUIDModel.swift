@@ -19,17 +19,3 @@ class UUIDModel {
     self.uuid.value = uuid
   }
 }
-
-
-//class UUIDModel_ {
-//  private var _uuid: String = UUID().uuidString {
-//    didSet {
-//      uuid.value = _uuid
-//    }
-//  }
-//
-//  lazy var uuid: Variable<String> = {
-//    let uuid = Variable(UUID().uuidString)
-//    return uuid
-//  }()
-//}
