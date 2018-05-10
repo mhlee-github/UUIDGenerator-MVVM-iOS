@@ -1,5 +1,5 @@
 //
-//  UUIDGenerantViewController.swift
+//  UUIDGenerationViewController.swift
 //  UUIDGenerator-MVVM
 //
 //  Created by mhlee on 2018. 5. 9..
@@ -10,23 +10,23 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class UUIDGenerantViewController: UIViewController {
+class UUIDGenerationViewController: UIViewController {
   let disposeBag = DisposeBag()
   
-  var uuidGenViewModel: UUIDGenerantViewModel!
+  var uuidGenViewModel: UUIDGenerationViewModel!
   
-  var customView: UUIDGenerantView {
-    return view as! UUIDGenerantView
+  var customView: UUIDGenerationView {
+    return view as! UUIDGenerationView
   }
   
   override func loadView() {
-    view = UUIDGenerantView()
+    view = UUIDGenerationView()
   }
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    uuidGenViewModel = UUIDGenerantViewModel()
+    uuidGenViewModel = UUIDGenerationViewModel()
     
     bind()
   }

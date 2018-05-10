@@ -1,5 +1,5 @@
 //
-//  UUIDGenerantViewModel.swift
+//  UUIDGenerationViewModel.swift
 //  UUIDGenerator-MVVM
 //
 //  Created by mhlee on 2018. 5. 9..
@@ -9,20 +9,20 @@
 import Foundation
 import RxSwift
 
-protocol UUIDGenerantViewModelInput {
+protocol UUIDGenerationViewModelInput {
   func generateUUID()
 }
 
-protocol UUIDGenerantViewModelOutput {
+protocol UUIDGenerationViewModelOutput {
   var uuidObservable: Observable<String> { get }
 }
 
-//protocol UUIDGenerantViewModelInterface {
+//protocol UUIDGenerationViewModelInterface {
 //  var inputs: ViewModelInput { get }
 //  var outputs: ViewModelOutput { get }
 //}
 
-class UUIDGenerantViewModel {
+class UUIDGenerationViewModel {
 
   let uuidModel: UUIDModel
   
@@ -31,18 +31,18 @@ class UUIDGenerantViewModel {
   }
 }
 
-extension UUIDGenerantViewModel: UUIDGenerantViewModelInput {
+extension UUIDGenerationViewModel: UUIDGenerationViewModelInput {
   func generateUUID() {
     let uuid = UUID().uuidString
     uuidModel.updateUUID(uuid)
   }
 }
 
-extension UUIDGenerantViewModel: UUIDGenerantViewModelOutput {
+extension UUIDGenerationViewModel: UUIDGenerationViewModelOutput {
   var uuidObservable: Observable<String> { return uuidModel.uuid.asObservable() }
 }
 
-//extension UUIDGenerantViewModel: ViewModelInterface {
+//extension UUIDGenerationViewModel: ViewModelInterface {
 //  var inputs: ViewModelInput { return self }
 //  var outputs: ViewModelOutput { return self }
 //}

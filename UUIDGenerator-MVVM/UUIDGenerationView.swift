@@ -1,5 +1,5 @@
 //
-//  UUIDGenerantView.swift
+//  UUIDGenerationView.swift
 //  UUIDGenerator-MVVM
 //
 //  Created by mhlee on 2018. 5. 9..
@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class UUIDGenerantView: UIView {
+class UUIDGenerationView: UIView {
   let uuidLabel: UILabel = {
     let label = UILabel()
     label.textColor = .black

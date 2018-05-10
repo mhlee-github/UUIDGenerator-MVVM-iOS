@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8214832C20A29F0C00098996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214832B20A29F0C00098996 /* AppDelegate.swift */; };
-		8214832E20A29F0C00098996 /* UUIDGenerantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214832D20A29F0C00098996 /* UUIDGenerantViewController.swift */; };
+		8214832E20A29F0C00098996 /* UUIDGenerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214832D20A29F0C00098996 /* UUIDGenerationViewController.swift */; };
 		8214833120A29F0C00098996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8214832F20A29F0C00098996 /* Main.storyboard */; };
 		8214833320A29F0D00098996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8214833220A29F0D00098996 /* Assets.xcassets */; };
 		8214833620A29F0D00098996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8214833420A29F0D00098996 /* LaunchScreen.storyboard */; };
-		8214833E20A2A32D00098996 /* UUIDGenerantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214833D20A2A32D00098996 /* UUIDGenerantView.swift */; };
-		8214834020A2A4E800098996 /* UUIDGenerantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214833F20A2A4E800098996 /* UUIDGenerantViewModel.swift */; };
+		8214833E20A2A32D00098996 /* UUIDGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214833D20A2A32D00098996 /* UUIDGenerationView.swift */; };
+		8214834020A2A4E800098996 /* UUIDGenerationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214833F20A2A4E800098996 /* UUIDGenerationViewModel.swift */; };
 		8214834220A2A5CF00098996 /* UUIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214834120A2A5CF00098996 /* UUIDModel.swift */; };
 		FB7F6DB1A32A0137FA8F8E45 /* Pods_UUIDGenerator_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39076051B26F25BDF34ED384 /* Pods_UUIDGenerator_MVVM.framework */; };
 /* End PBXBuildFile section */
@@ -23,13 +23,13 @@
 		467F4F76E08D7173872AA294 /* Pods-UUIDGenerator-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUIDGenerator-MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UUIDGenerator-MVVM/Pods-UUIDGenerator-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		8214832820A29F0C00098996 /* UUIDGenerator-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UUIDGenerator-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8214832B20A29F0C00098996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8214832D20A29F0C00098996 /* UUIDGenerantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDGenerantViewController.swift; sourceTree = "<group>"; };
+		8214832D20A29F0C00098996 /* UUIDGenerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDGenerationViewController.swift; sourceTree = "<group>"; };
 		8214833020A29F0C00098996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8214833220A29F0D00098996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8214833520A29F0D00098996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8214833720A29F0D00098996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8214833D20A2A32D00098996 /* UUIDGenerantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDGenerantView.swift; sourceTree = "<group>"; };
-		8214833F20A2A4E800098996 /* UUIDGenerantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDGenerantViewModel.swift; sourceTree = "<group>"; };
+		8214833D20A2A32D00098996 /* UUIDGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDGenerationView.swift; sourceTree = "<group>"; };
+		8214833F20A2A4E800098996 /* UUIDGenerationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDGenerationViewModel.swift; sourceTree = "<group>"; };
 		8214834120A2A5CF00098996 /* UUIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDModel.swift; sourceTree = "<group>"; };
 		EACFF9552C7C94AE62AB8925 /* Pods-UUIDGenerator-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUIDGenerator-MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-UUIDGenerator-MVVM/Pods-UUIDGenerator-MVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,9 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				8214832B20A29F0C00098996 /* AppDelegate.swift */,
-				8214832D20A29F0C00098996 /* UUIDGenerantViewController.swift */,
-				8214833D20A2A32D00098996 /* UUIDGenerantView.swift */,
-				8214833F20A2A4E800098996 /* UUIDGenerantViewModel.swift */,
+				8214832D20A29F0C00098996 /* UUIDGenerationViewController.swift */,
+				8214833D20A2A32D00098996 /* UUIDGenerationView.swift */,
+				8214833F20A2A4E800098996 /* UUIDGenerationViewModel.swift */,
 				8214834120A2A5CF00098996 /* UUIDModel.swift */,
 				8214832F20A29F0C00098996 /* Main.storyboard */,
 				8214833220A29F0D00098996 /* Assets.xcassets */,
@@ -213,11 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8214832E20A29F0C00098996 /* UUIDGenerantViewController.swift in Sources */,
-				8214834020A2A4E800098996 /* UUIDGenerantViewModel.swift in Sources */,
+				8214832E20A29F0C00098996 /* UUIDGenerationViewController.swift in Sources */,
+				8214834020A2A4E800098996 /* UUIDGenerationViewModel.swift in Sources */,
 				8214832C20A29F0C00098996 /* AppDelegate.swift in Sources */,
 				8214834220A2A5CF00098996 /* UUIDModel.swift in Sources */,
-				8214833E20A2A32D00098996 /* UUIDGenerantView.swift in Sources */,
+				8214833E20A2A32D00098996 /* UUIDGenerationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
